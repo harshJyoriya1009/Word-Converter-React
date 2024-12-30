@@ -21,6 +21,18 @@ export default function TextForm(props) {
         setText(nextText);
     }
 
+    const copyText =()=>{
+        var text= document.getElementById("myBox")
+        text.select()
+        text.setSelectionRange(0,9999)
+        navigator.clipboard.writeText(text.value)
+    }
+
+    const removeExtraSpaces=()=>{
+        let newText=text.split(/[ ]+/)
+        setText(newText.join(" "))
+    }
+
     const myStyle={
         color:"black",
         border: "2px solid black"
@@ -36,7 +48,9 @@ export default function TextForm(props) {
    </div>
   <button className="btn btn-primary mx-1" onClick={handleUpClick}>Convert to uppercase</button>
   <button className="btn btn-primary mx-1 my-1" onClick={handleDnClick}>Convert to lowerCase</button>
-  <button className="btn btn-primary" onClick={clearText}>Clear Text</button>
+  <button className="btn btn-primary mx-1 my-1" onClick={clearText}>Clear Text</button>
+  <button className="btn btn-primary mx-1 my-1" onClick={copyText}>Copy Text</button>
+  <button className="btn btn-primary mx-1 my-1 " onClick={removeExtraSpaces}>Remove Extra Spaces</button>
    </div>
    </div>
    <div className="container my-2">
@@ -44,14 +58,13 @@ export default function TextForm(props) {
     <p>{text.split(" ").length} words and {text.length} characters</p>
     <p>{0.008 * text.split(" ").length} Minutes to read</p>
 
-    <div className="xod"style={myStyle}>
+    <div className="xod my-3"style={myStyle}>
     <h2 className='container' >Preview</h2>
     <p className='container'>{text}</p>
     </div>
 
    </div>
 
-   
    </>
   )
 }

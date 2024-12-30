@@ -15,7 +15,7 @@ export default function About(props) {
                 color: "white",
                 border: "2px solid white"
             })
-            setBtnText("Enable dark mode")
+            setBtnText("Enable bright mode")
         }
         else{
             setmyStyle({
@@ -23,7 +23,7 @@ export default function About(props) {
                 color: "black",
                 border: "2px solid black"
             })
-            setBtnText("Enable bright mode")
+            setBtnText("Enable dark mode")
         }
     }
     
