@@ -29,7 +29,7 @@ export default function Navbar(props) {
   );
 }
 
-// Correctly defining propTypes with lowercase "p"
+
 Navbar.propTypes = {
   title: PropTypes.string,
   aboutText: PropTypes.string
