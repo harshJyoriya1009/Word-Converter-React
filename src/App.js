@@ -2,6 +2,7 @@ import './App.css';
 // import About from './components/About';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
+import About from './components/About';
 import Alert from './components/Alert';
 import React, {useState} from 'react'
 
@@ -46,9 +47,9 @@ function App() {
 <TextForm showAlert={showAlert} heading="Enter your feedback below"  mode={mode} toggleMode={toggleMode} />
 </div>
 
-{/* <div className="container my-4">
+<div className="container my-4">
 <About subHeading1="# Read me 1" subHeading2="# Read me 2" subHeading3="# Read me 3"/>
-</div> */}
+</div>
 
 
     </>
