@@ -2,7 +2,6 @@ import './App.css';
 // import About from './components/About';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
-import About from './components/About';
 import Alert from './components/Alert';
 import React, {useState} from 'react'
 
