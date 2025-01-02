@@ -53,11 +53,11 @@ function App() {
 <div className="container my-3">
 <Routes>
 
-        <Route path="/about"
+        <Route exact path="/about"
            element={<About subHeading1="# Read me 1" subHeading2="# Read me 2" subHeading3="# Read me 3" />}
         />
 
-        <Route  path="/"
+        <Route exact  path="/"
             element={  <TextForm  showAlert={showAlert} heading="Enter your feedback below" mode={mode} toggleMode={toggleMode}/>}
         />
           
