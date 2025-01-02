@@ -13,10 +13,12 @@ function App() {
       setMode("dark")
       document.body.style.backgroundColor="black"   //#212529
       showAlert("Dark mode is Enabled", "Successfully")
+      document.title="Word Converter App-Dark mode"
     }else{
       setMode("light")
       document.body.style.backgroundColor="white"
       showAlert("Light mode is Enabled", "Successfully")
+      document.title="Word Converter App-Light mode"
     }
   }
 

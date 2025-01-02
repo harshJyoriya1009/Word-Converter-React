@@ -10,28 +10,34 @@ export default function TextForm(props) {
         let nextText=text.toUpperCase()
         setText(nextText)
         // props.showAlert("Converted to Uppercse", "Successfully")
+        document.title="Word Converter- Uppercase"
     }
 
     const handleDnClick=()=>{
         let nextText=text.toLowerCase()
         setText(nextText);
+        document.title="Word Converter- Lowercase"
+        
     }
 
     const clearText=()=>{
         let nextText=" "
         setText(nextText);
+        document.title="Word Converter- Clear text"
     }
-
+    
     const copyText =()=>{
         var text= document.getElementById("myBox")
         text.select()
         text.setSelectionRange(0,9999)
         navigator.clipboard.writeText(text.value)
+        document.title="Word Converter- Copy text"
     }
 
     const removeExtraSpaces=()=>{
         let newText=text.split(/[ ]+/)
         setText(newText.join(" "))
+        document.title="Word Converter- Remove Extra Space"
     }
 
    

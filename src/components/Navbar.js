@@ -26,7 +26,7 @@ export default function Navbar(props) {
                  <label className="form-check-label" htmlFor="flexSwitchCheckDefault">{props.mode==="light"?"Enable Dark mode":"Enable Light mode"}</label>
             </div>
 
-              
+            
                 {/* <div className="btn-group " role="group" aria-label="First group">
                   <button type="button" className="btn btn-secondary mx-2">Green</button>
                   <button type="button" className="btn btn-secondary mx-2">Black</button>
