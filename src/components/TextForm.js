@@ -27,10 +27,10 @@ export default function TextForm(props) {
     }
     
     const copyText =()=>{
-        var text= document.getElementById("myBox")
-        text.select()
-        document.getSelection().removeAllRanges()
-        navigator.clipboard.writeText(text.value)
+        // var text= document.getElementById("myBox")
+        // text.select()
+        // document.getSelection().removeAllRanges()
+        navigator.clipboard.writeText(text)
         document.title="Word Converter- Copy text"
         props.showAlert("Your text is copied","Gentalman")
     }
@@ -67,7 +67,7 @@ export default function TextForm(props) {
 
    <div className="container my-2" style={{color: props.mode==="light"?"black":"white" }}>
     <h2>Your text summary----------------</h2>
-    <p>{text.split(" ").filter((element)=>{return element.length!==0}).length} words and {text.length} characters</p>
+    <p>{text.split(/\s+/).filter((element)=>{return element.length!==0}).length} words and {text.length} characters</p>
     <p>{0.008 * text.split(" ").filter((element)=>{return element.length!==0}).length} Minutes to read</p>
     <h2>Preview</h2>
     <p >{text.length>0?text:"Enter something"}</p>
