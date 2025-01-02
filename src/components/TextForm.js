@@ -29,9 +29,10 @@ export default function TextForm(props) {
     const copyText =()=>{
         var text= document.getElementById("myBox")
         text.select()
-        text.setSelectionRange(0,9999)
+        document.getSelection().removeAllRanges()
         navigator.clipboard.writeText(text.value)
         document.title="Word Converter- Copy text"
+        props.showAlert("Your text is copied","Gentalman")
     }
 
     const removeExtraSpaces=()=>{
