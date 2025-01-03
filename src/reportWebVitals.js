@@ -1,6 +1,4 @@
-// Import the 'reportWebVitals' function from the 'web-vitals' package
-// import { reportWebVitals } from 'web-vitals';
-// eslint-disable-next-line no-unused-vars
+
 import reportWebVitals from './reportWebVitals';
 
 

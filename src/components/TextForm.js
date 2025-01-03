@@ -9,7 +9,6 @@ export default function TextForm(props) {
     const handleUpClick=()=>{
         let nextText=text.toUpperCase()
         setText(nextText)
-        // props.showAlert("Converted to Uppercse", "Successfully")
         document.title="Word Converter- Uppercase"
     }
 
@@ -27,9 +26,6 @@ export default function TextForm(props) {
     }
     
     const copyText =()=>{
-        // var text= document.getElementById("myBox")
-        // text.select()
-        // document.getSelection().removeAllRanges()
         navigator.clipboard.writeText(text)
         document.title="Word Converter- Copy text"
         props.showAlert("Your text is copied","Gentalman")
@@ -52,7 +48,7 @@ export default function TextForm(props) {
      <textarea className="form-control" value={text} onChange={handleOnChange} 
      style={
         {
-            backgroundColor: props.mode==="light"?"white":"gray",              //onject inside js
+            backgroundColor: props.mode==="light"?"white":"gray",              //object inside js
              color:  props.mode==="light"?"black":"white"
               }
               } id="myBox" rows="9"></textarea>

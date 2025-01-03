@@ -60,7 +60,7 @@ function App() {
         <Route exact path="/"
             element={  <TextForm  showAlert={showAlert} heading="Enter your feedback below" mode={mode} toggleMode={toggleMode}/>}
         />
-          {/* <TextForm  showAlert={showAlert} heading="Enter your feedback below" mode={mode} toggleMode={toggleMode}/> */}
+        
  </Routes>
 </div>
 </Router>
