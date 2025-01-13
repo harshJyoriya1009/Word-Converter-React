@@ -39,7 +39,7 @@ npm install
 npm start
 ```
 
-5)Open your browser and go to http://localhost:3000 to view the app.
+5) Open your browser and go to http://localhost:3000 to view the app.
 
 **Usage**
 - On the homepage, you can enter text in the provided textarea and use the various buttons to manipulate the text.
@@ -84,10 +84,10 @@ src/
 └── index.html
 ```
 
-**Demo**
+**Demo** <br>
 You can try the live demo of this application by visiting the deployed website.
 
-**Contributing**
+**Contributing**<br>
 Feel free to fork this repository and submit pull requests. Contributions are always welcome.
 - Fork the repository
 - Create a new branch (git checkout -b feature/your-feature-name)
