@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+## Word Converter App
+This is a simple Word Converter App built with React.js that offers various text manipulation functionalities. The app allows users to perform several actions on the text like converting text to uppercase or lowercase, clearing the text, copying it to the clipboard, and removing extra spaces.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Features**
+- Convert to Uppercase: Converts the input text to uppercase.
+- Convert to Lowercase: Converts the input text to lowercase.
+- Clear Text: Clears the entered text.
+- Copy Text: Copies the input text to the clipboard.
+- Remove Extra Spaces: Removes unnecessary spaces from the input text.
+- Light and Dark Mode: Users can toggle between light and dark mode for better accessibility.
+- Alerts: Displays success or informational alerts to notify users about their actions.
+  
+**Tech Stack**
+- React.js: The frontend framework used to build the app.
+- Bootstrap: A CSS framework used for styling and responsive design.
+- React Router: For navigation between different pages within the app.
+- JavaScript: Programming language used for functionality and interactivity.
 
-## Available Scripts
+**Installation**
+To run this project locally, follow these steps:
 
-In the project directory, you can run:
+**1) Clone the repository:**
+```bash
+git clone https://github.com/your-username/word-converter-app.git
+```
 
-### `npm start`
+**2) Navigate to the project directory:**
+```bash
+cd word-converter-app
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**3) Install the dependencies:**
+```bash
+npm install
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**4) Run the app:**
+```bash
+npm start
+```
 
-### `npm test`
+5)Open your browser and go to http://localhost:3000 to view the app.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Usage**
+- On the homepage, you can enter text in the provided textarea and use the various buttons to manipulate the text.
+- The "Enable Dark Mode" toggle button allows you to switch between light and dark themes, and it updates the background color of the page accordingly.
+- When any of the actions are performed, an alert is displayed at the top of the page notifying the user of the action taken.
+  
+**Components**
+1. App.js
+- The root component of the application.
+- Sets up routing with React Router.
+- Contains the dark/light mode toggle functionality.
 
-### `npm run build`
+2. Navbar.js
+- A navigation bar that allows the user to navigate between the "Home" and "About" pages.
+- Includes a switch to toggle between light and dark mode.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Alert.js
+- Displays alerts to inform the user of the action taken (e.g., text copied, mode switched).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. TextForm.js
+- Main functional component for text manipulation.
+- Includes features to convert text to uppercase, lowercase, clear text, copy text, and remove extra spaces.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. About.js
+- Contains informational content and an accordion component that can be expanded to display more information.
+- Displays content depending on whether the app is in light or dark mode.
+  
+**Light and Dark Mode**
+The app supports both light mode and dark mode for a better user experience. The background color and text color change accordingly when the user toggles the mode.
 
-### `npm run eject`
+**Folder Structure**
+```bash
+src/
+├── components/
+│   ├── About.js
+│   ├── Alert.js
+│   ├── Navbar.js
+│   ├── TextForm.js
+├── App.js
+├── App.css
+├── index.js
+└── index.html
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Demo**
+You can try the live demo of this application by visiting the deployed website.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Contributing**
+Feel free to fork this repository and submit pull requests. Contributions are always welcome.
+- Fork the repository
+- Create a new branch (git checkout -b feature/your-feature-name)
+- Make changes and commit them (git commit -am 'Add new feature')
+- Push to the branch (git push origin feature/your-feature-name)
+- Open a pull request
