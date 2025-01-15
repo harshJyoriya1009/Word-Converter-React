@@ -1,7 +1,7 @@
 {
   "name": "test",
   "version": "0.1.0",
-  "homepage": "https://github.com/harshJyoriya1009/Word-Converter-React.git",
+  "homepage": "https://harshjyoriya1009.github.io/Word-Converter-React",
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
