@@ -1,10 +1,10 @@
 {
   "name": "test",
   "version": "0.1.0",
+  "homepage": "https://github.com/harshJyoriya1009/Word-Converter-React.git",
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
-    "gh-pages": "^6.2.0",
     "prop-types": "^15.8.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -17,7 +17,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -38,6 +40,7 @@
     ]
   },
   "devDependencies": {
-    "@types/react-router-dom": "^5.3.3"
+    "@types/react-router-dom": "^5.3.3",
+    "gh-pages": "^6.3.0"
   }
 }
