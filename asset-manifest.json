@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/harshJyoriya1009/Word-Converter-React.git/static/css/main.89988718.css",
-    "main.js": "/harshJyoriya1009/Word-Converter-React.git/static/js/main.7a982fd8.js",
+    "main.js": "/harshJyoriya1009/Word-Converter-React.git/static/js/main.2ead49b1.js",
     "static/js/488.2aef74fe.chunk.js": "/harshJyoriya1009/Word-Converter-React.git/static/js/488.2aef74fe.chunk.js",
     "index.html": "/harshJyoriya1009/Word-Converter-React.git/index.html",
     "main.89988718.css.map": "/harshJyoriya1009/Word-Converter-React.git/static/css/main.89988718.css.map",
-    "main.7a982fd8.js.map": "/harshJyoriya1009/Word-Converter-React.git/static/js/main.7a982fd8.js.map",
+    "main.2ead49b1.js.map": "/harshJyoriya1009/Word-Converter-React.git/static/js/main.2ead49b1.js.map",
     "488.2aef74fe.chunk.js.map": "/harshJyoriya1009/Word-Converter-React.git/static/js/488.2aef74fe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.89988718.css",
-    "static/js/main.7a982fd8.js"
+    "static/js/main.2ead49b1.js"
   ]
 }
