@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/harshJyoriya1009/Word-Converter-React.git/static/css/main.89988718.css",
-    "main.js": "/harshJyoriya1009/Word-Converter-React.git/static/js/main.2ead49b1.js",
-    "static/js/488.2aef74fe.chunk.js": "/harshJyoriya1009/Word-Converter-React.git/static/js/488.2aef74fe.chunk.js",
-    "index.html": "/harshJyoriya1009/Word-Converter-React.git/index.html",
-    "main.89988718.css.map": "/harshJyoriya1009/Word-Converter-React.git/static/css/main.89988718.css.map",
-    "main.2ead49b1.js.map": "/harshJyoriya1009/Word-Converter-React.git/static/js/main.2ead49b1.js.map",
-    "488.2aef74fe.chunk.js.map": "/harshJyoriya1009/Word-Converter-React.git/static/js/488.2aef74fe.chunk.js.map"
+    "main.css": "/Word-Converter-React/static/css/main.89988718.css",
+    "main.js": "/Word-Converter-React/static/js/main.d66030d4.js",
+    "static/js/488.2aef74fe.chunk.js": "/Word-Converter-React/static/js/488.2aef74fe.chunk.js",
+    "index.html": "/Word-Converter-React/index.html",
+    "main.89988718.css.map": "/Word-Converter-React/static/css/main.89988718.css.map",
+    "main.d66030d4.js.map": "/Word-Converter-React/static/js/main.d66030d4.js.map",
+    "488.2aef74fe.chunk.js.map": "/Word-Converter-React/static/js/488.2aef74fe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.89988718.css",
-    "static/js/main.2ead49b1.js"
+    "static/js/main.d66030d4.js"
   ]
 }
